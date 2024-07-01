@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Keegan McCullough Resume</title>
-  <link rel="stlesheet" href="style.css" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="color.js"></script>
 </head>
 <body>
   <div>
@@ -12,37 +13,55 @@
     <p> kegnmcc@gmail.com | Minneapolis, MN </p>
   </div>
 
-  <div class=edu-header>
-    <h3>Education </h3>
-  </div>
+	<div class=wrapper>
+		<div class=edu-wrapper ag>
+  		<div class=edu-header>
+   		 <h3>Education</h3>
+ 		  </div>
   
-  <div class=edu-body>
-    <h4>Iowa State University </h4>
-    <h5>Software Engineering </h5>
-		<h6>August 2018 - September 2022 </h6>
+ 		  <div class=ebody>
+   		 <h4>Iowa State University </h4>
+    		<h5>Software Engineering </h5>
+				<h6>August 2018 - September 2022 </h6>
 		
-		<ul>
-			<li>Database management Systems</li>
-			<li>Advanced Object Oriented Programming </li>
-			<li>Digital Logic </li>
-			<li>Group Project: Vacay, a Android app in Spring Boot </li>
-		</ul>
-	</div>
-	
-	<div class=exp-header>
-		<h3> Experience </h3>
-	</div>
-	
-	<div class=exp-body>
-    <h4>ITS, Inc </h4>
-    <h5>Software Engineering Intern </h5>
-		<h6>May 2019 - August 2019 </h6>
+				<ul>
+					<li>Database management Systems</li>
+					<li>Advanced Object Oriented Programming </li>
+					<li>Digital Logic </li>
+					<li>Vacay, a Android app in Spring Boot </li>
+				</ul>
+			</div>
+		</div>
 		
-		<ul>
-			<li>Financial records database automation</li>
-			<li>SQL, Java, and C </li>
-			<li>Experience on an Agile programming team </li>
-		</ul>
+		<div class=exp-wrapper>
+			<div class=exp-header>
+				<h3>Experience</h3>
+			</div>
+			<div class=ebody>
+   		 <h4>ITS, Inc </h4>
+   		 <h5>Software Engineering Intern </h5>
+				<h6>May 2019 - August 2019 </h6>
+		
+				<ul>
+					<li>Financial records database automation</li>
+					<li>SQL, Java, and C </li>
+					<li>Experience on an Agile programming team</li>
+					<li>Hands on mentoring with senior engineers</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		
+	<div class= colorpicker>
+		<p>Don't like the color of the site? </p>
+		<p>With the power of javascript, change it! </p>
+		<div class=typehex>
+			<form id=hexInputForm>
+				<label for="hexInput">Type hex code: </label>
+				<input class= tform type="text" id="hexInput" name="hexInput" value="#817e9f">
+				<button type="submit"> Change Color </button>
+			</form>
+		</div>
 	</div>
 	
 </body>
