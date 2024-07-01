@@ -62,6 +62,14 @@
 			</form>
 		</div>
 	</div>
-	<script src="color.js"></script>
+	<script> 
+		document.getElementById("hexInputForm").addEventListener("submit", function(event) {
+		event.preventDefault();
+		console.log("submitted");
+		const colorInput = document.getElementById('hexInput').value.trim();
+		document.body.style.backgroundColor = colorInput;
+		});
+																										 
+	</script>
 </body>
 </html>
