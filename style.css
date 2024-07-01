@@ -42,6 +42,7 @@ p{
 	padding: 5px;
 	padding-bottom: 10px;
 	height:384px;
+	border-radius: 5px;
 }
 .edu-header{
 	background-color:#b5c9c6;
@@ -50,11 +51,13 @@ p{
 	text-align: center;
 	column-width: 1000px;
 	height: 55px;
+	border-radius: 5px;
 }
 .ebody{
 	margin:30px;
 	margin-top:10px
 	column-width: 1000px;
+	border-radius: 5px;
 }
 .exp-wrapper{
 	background-color:#b8aaa5;
@@ -62,6 +65,7 @@ p{
 	padding:5px;
 	padding-bottom: 10px;
 	height:384px;
+	border-radius: 5px;
 }
 .exp-header{
 	background-color:#c9bbb5;
@@ -70,6 +74,7 @@ p{
 	text-align: center;
 	column-width: 1000px;
 	height: 55px;
+	border-radius: 5px;
 }
 
 .typehex{
@@ -85,4 +90,3 @@ p{
 .tform{
 	width:55px;
 }
-
